@@ -6,7 +6,8 @@ using namespace std;
 
 #define PROB 60
 
-vector<pair<int, int> > DirectedTree(int size, int max_edge) {
+// construct a directed graph has @size nodes.
+vector<pair<int, int> > DirectedGraph(int size) {
     vector<pair<int, int> > result;
     srand(time(NULL));
     int direction = 0;
